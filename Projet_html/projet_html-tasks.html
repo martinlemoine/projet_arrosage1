@@ -1,0 +1,424 @@
+<html xmlns:ganttproject="http://ganttproject.sf.net/">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>GanttProject - projet_html</title>
+        <style>
+	    A:link {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black;
+	    }
+	    A:visited {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black; BACKGROUND: none
+	    }
+	    A:hover {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .notes {
+	      padding-left: 10px;
+	    }
+	    .notes pre {
+	      font-family: Arial, Helvetica;
+	      font-size: 10px;
+	      margin-top: 0px;
+	      padding-top: 0px;
+	      margin-bottom: 5px;
+	    }
+	    .attachment {
+	      padding-left: 10px;
+	    }
+	    .attachment a:link {
+	      font-weight: normal;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:hover {
+	      font-weight: normal;
+	      text-decoration: underline;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:visited {
+	      font-weight: normal;
+	      font-size: 12px;
+	      background: white;
+	      color: gray;
+	    }
+	    TD {
+		FONT-SIZE: 12px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    UL {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    LI {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    H1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #6d9ec6;
+	    }
+	    H2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000000;
+	    }
+	    H3 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #6d9ec6;
+	    }
+	    H4 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000;
+	    }
+	    H5 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #6d9ec6;
+	    }
+	    H6 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+	    }
+
+	    </style>
+    </head>
+    <body bgcolor="white">
+        <center>
+            <style>
+div.project_name {
+  font-size: 150%;
+  color: black;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+}
+</style>
+            <center>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="#dddddd">
+                            <div class="project_name">projet arrosage </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="page_links">
+                                <a href="projet_html.html"></a>  |
+          <a href="projet_html-chart.html">Diagramme de Gantt</a> |
+          <a href="projet_html-tasks.html">T&acirc;ches</a> |
+          <a href="projet_html-resources.html">Ressources</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <br>
+            <style>
+td.header {
+  background: #dddddd;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+  border-bottom: solid black 2px;
+}
+td.cell {
+  margin: 0;
+  margin-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+}
+div.cell {
+}
+h5.header {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+</style>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="top" class="header">
+                        <h5 class="header">Nom</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Date de d&eacute;but</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Date de fin</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Ressources</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">recherche de solution</div>
+                            <div class="notes">
+                                <pre width="40">Objectif: trouver un systeme d'arrosage automatique 
+m&eacute;thode: rechercher sur internet 
+Conclusion: plusieurs solution existante on &eacute;tais trouv&eacute;e 
+</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/MVHtmlExport/MVHtmlExport/index.htm" class="attachment">https://martinlemoine.github.io/projet_arrosage1/MVHtmlExport/MVHtmlExport/index.htm</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">14/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">21/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Martin Lemoine </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Analys du besoin</div>
+                            <div class="notes">
+                                <pre width="40">Objectif: Analyser le besoin pour pouvoir trouv&eacute;e une solution adapt&eacute;e pour le projet + Premi&egrave;re id&eacute;e 
+M&eacute;thode: r&eacute;fl&eacute;chir et imagin&eacute;e un projet 
+Conclusion: Une solution a &eacute;tais trouv&eacute;e pour r&eacute;pondre au besoin
+
+</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/analyse_besoin.jpg" class="attachment">https://martinlemoine.github.io/projet_arrosage1/analyse_besoin.jpg</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">24/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">28/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Jade Onfroy </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">01/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">01/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Croquis</div>
+                            <div class="notes">
+                                <pre width="40">Objectif: Sch&eacute;matis&eacute;e le projet, la pi&egrave;ce que nous allons cr&eacute;er et et les composant a utilis&eacute;e 
+M&eacute;dode: D&eacute;ssiner et r&eacute;fl&eacute;chir pour cr&eacute;e un mod&egrave;le est&eacute;tique qui r&eacute;pond au cahier des charges 
+Conclusion: Mod&egrave;le troyv&eacute;e pour le projet 
+
+ </pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/20260130_105052.jpg" class="attachment">https://martinlemoine.github.io/projet_arrosage1/20260130_105052.jpg</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">01/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Jade Onfroy </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Programation</div>
+                            <div class="notes">
+                                <pre width="40">Oblectif: cr&eacute;er le programme pour la carte microbit pour cr&eacute;er le syst&egrave;me 
+M&eacute;dode: utilis&eacute;e vittascience
+Conclusion: le programme pour la carte microbit est termin&eacute;e</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/programme .png" class="attachment">https://martinlemoine.github.io/projet_arrosage1/programme .png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Martin Lemoine </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Mod&eacute;lisation 3D</div>
+                            <div class="notes">
+                                <pre width="40">cr&eacute;er les mod&egrave;les 3D pour imprim&eacute;e les pi&egrave;ce a la d&eacute;coupeuse laser 
+M&eacute;dode: Utiliser Solideworks + onshape 
+Conclusion les pi&egrave;ces sont cr&eacute;er et imprim&eacute;e </pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/Assemblage.png" class="attachment">https://martinlemoine.github.io/projet_arrosage1/Assemblage.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">08/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Jade Onfroy </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">09/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">09/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Organigramme</div>
+                            <div class="notes">
+                                <pre width="40">Ce sh&eacute;ma va nous ervir a conprendre le programme de mani&egrave;re </pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/organigramme .png" class="attachment">https://martinlemoine.github.io/projet_arrosage1/organigramme .png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">09/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">23/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Martin Lemoine </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Chaine d'information</div>
+                            <div class="notes">
+                                <pre width="40">Ce sh&eacute;ma nous permet de savoir a quoi sert quel pi&egrave;ces </pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/Capture d'%C3%A9cran 2026-02-06 123512.png" class="attachment">https://martinlemoine.github.io/projet_arrosage1/Capture d'&eacute;cran 2026-02-06 123512.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">09/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">23/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Jade Onfroy </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Assemblage</div>
+                            <div class="notes">
+                                <pre width="40">Objectif: assembler et monter le projet avec les pi&egrave;ces d&eacute;coup&eacute;e et les composant
+</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://martinlemoine.github.io/projet_arrosage1/Snapchat-1266145630.mp4" class="attachment">https://martinlemoine.github.io/projet_arrosage1/Snapchat-1266145630.mp4</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">02/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (3.3.3322)</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
+                    <br>
+                    <b>10/02/2026 - 18:39:32</b></td>
+            </tr>
+        </table>
+    </body>
+</html>
